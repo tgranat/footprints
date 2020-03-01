@@ -1,4 +1,4 @@
-(module Potentiometer_AlphaTaiwan_RV16AF-41_16mm_vertical (layer F.Cu) (tedit 5E5AA043)
+(module Potentiometer_AlphaTaiwan_RV16AF-41_16mm_vertical (layer F.Cu) (tedit 5E5AFD59)
   (descr "Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf")
   (tags "Potentiometer horizontal Vishay T73XW")
   (fp_text reference REF** (at 0 -2.01) (layer F.SilkS)
@@ -12,9 +12,9 @@
   )
   (fp_circle (center 16.002 4.980661) (end 19.304 12.7) (layer F.SilkS) (width 0.12))
   (fp_circle (center 16.002 5.08) (end 23.368 1.016) (layer B.SilkS) (width 0.12))
-  (pad 3 thru_hole circle (at 0 10.16) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 0 5.08) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
-  (pad 1 thru_hole circle (at 0 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at 0 10.16) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 0 5.08) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Vishay_T73XW_Horizontal.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
